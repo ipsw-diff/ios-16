@@ -1,0 +1,29 @@
+{
+  "device": "iPhone10,3,iPhone10,6",
+  "from": {
+    "build": "20H370",
+    "input": "iPhone10,3,iPhone10,6_16.7.14_20H370_Restore.ipsw",
+    "version": "16.7.14"
+  },
+  "id": "ios-16.7.15-20H370-20H380",
+  "major_version": 16,
+  "payload": {
+    "entrypoint": "diffs/16_7_14_20H370__vs_16_7_15_20H380/README.md",
+    "git_tree": "52ef7212cfd8353d38f0f74f3da1cc48911c341f",
+    "logical_bytes": 10678,
+    "path": "diffs/16_7_14_20H370__vs_16_7_15_20H380",
+    "tracked_file_count": 1
+  },
+  "platform": "iOS",
+  "schema_version": 1,
+  "source": {
+    "commit": "d881e84676308404c6947d0218c11f347a6f3a89",
+    "path": "16_7_14_20H370__vs_16_7_15_20H380",
+    "repository": "https://github.com/blacktop/ipsw-diffs"
+  },
+  "to": {
+    "build": "20H380",
+    "input": "iPhone10,3,iPhone10,6_16.7.15_20H380_Restore.ipsw",
+    "version": "16.7.15"
+  }
+}
