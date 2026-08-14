@@ -1,0 +1,107 @@
+{
+  "catalog_commit": "7c796028220ff850bf08d253b6b9084f6ff60a96",
+  "discovery": {
+    "anchor": {
+      "appledb_path": "osFiles/iOS/20x - 16.x/20H380.json",
+      "beta": false,
+      "build": "20H380",
+      "rc": false,
+      "released": "2026-03-11T00:00:00Z",
+      "source": {
+        "input": "iPhone10,3,iPhone10,6_16.7.15_20H380_Restore.ipsw",
+        "sha256": "b93458bb5751d1527d9d4d46053ce64a631e62e61f7cb97443cbb341efb9487a",
+        "size": 6170932860,
+        "url": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/047-95808/6C93B138-CA05-438D-BBFC-7B024409B5E6/iPhone10,3,iPhone10,6_16.7.15_20H380_Restore.ipsw"
+      },
+      "version": "16.7.15"
+    },
+    "appledb": {
+      "commit": "d227e42c3a2449bec0c8a3b1962d7157dddb5e34",
+      "repository": "https://github.com/littlebyteorg/appledb"
+    },
+    "appledb_platform": "iOS",
+    "device": "iPhone10,3",
+    "edges": [
+      {
+        "from": {
+          "appledb_path": "osFiles/iOS/20x - 16.x/20H380.json",
+          "beta": false,
+          "build": "20H380",
+          "rc": false,
+          "released": "2026-03-11T00:00:00Z",
+          "source": {
+            "input": "iPhone10,3,iPhone10,6_16.7.15_20H380_Restore.ipsw",
+            "sha256": "b93458bb5751d1527d9d4d46053ce64a631e62e61f7cb97443cbb341efb9487a",
+            "size": 6170932860,
+            "url": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/047-95808/6C93B138-CA05-438D-BBFC-7B024409B5E6/iPhone10,3,iPhone10,6_16.7.15_20H380_Restore.ipsw"
+          },
+          "version": "16.7.15"
+        },
+        "to": {
+          "appledb_path": "osFiles/iOS/20x - 16.x/20H392.json",
+          "beta": false,
+          "build": "20H392",
+          "rc": false,
+          "released": "2026-05-11T00:00:00Z",
+          "source": {
+            "input": "iPhone10,3,iPhone10,6_16.7.16_20H392_Restore.ipsw",
+            "sha256": "ece1194f7e233e9109c5790a8d23a4564a10a254e15ec5b09978a343265568fb",
+            "size": 6171035648,
+            "url": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/122-77006/1158E502-D76D-4226-AA06-ED5E30CD1111/iPhone10,3,iPhone10,6_16.7.16_20H392_Restore.ipsw"
+          },
+          "version": "16.7.16"
+        }
+      }
+    ],
+    "latest": {
+      "appledb_path": "osFiles/iOS/20x - 16.x/20H392.json",
+      "beta": false,
+      "build": "20H392",
+      "rc": false,
+      "released": "2026-05-11T00:00:00Z",
+      "source": {
+        "input": "iPhone10,3,iPhone10,6_16.7.16_20H392_Restore.ipsw",
+        "sha256": "ece1194f7e233e9109c5790a8d23a4564a10a254e15ec5b09978a343265568fb",
+        "size": 6171035648,
+        "url": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/122-77006/1158E502-D76D-4226-AA06-ED5E30CD1111/iPhone10,3,iPhone10,6_16.7.16_20H392_Restore.ipsw"
+      },
+      "version": "16.7.16"
+    },
+    "major_version": 16,
+    "platform": "iOS",
+    "schema_version": 2,
+    "source_inventory": {
+      "observed": 69,
+      "selected": 2
+    },
+    "status": "candidate",
+    "track_id": "ios-16"
+  },
+  "generator": {
+    "name": "ipsw",
+    "version": "Version: 3.1.708, BuildCommit: 84f5d9aef45149840bdd00b7b8e661088c1d6881"
+  },
+  "inputs": [
+    {
+      "role": "previous",
+      "sha256": "b93458bb5751d1527d9d4d46053ce64a631e62e61f7cb97443cbb341efb9487a",
+      "size": 6170932860,
+      "url": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/047-95808/6C93B138-CA05-438D-BBFC-7B024409B5E6/iPhone10,3,iPhone10,6_16.7.15_20H380_Restore.ipsw"
+    },
+    {
+      "role": "next",
+      "sha256": "ece1194f7e233e9109c5790a8d23a4564a10a254e15ec5b09978a343265568fb",
+      "size": 6171035648,
+      "url": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/122-77006/1158E502-D76D-4226-AA06-ED5E30CD1111/iPhone10,3,iPhone10,6_16.7.16_20H392_Restore.ipsw"
+    }
+  ],
+  "schema_version": 1,
+  "signatures": {
+    "commit": "81178cfe6c8869612ef092f6471fce3e17d95b20",
+    "repository": "https://github.com/blacktop/symbolicator"
+  },
+  "source_commit": "ee0763d61f61d5e85a6b191199b9291ba39543a1",
+  "source_tag": "payload/16_7_15_20H380_vs_16_7_16_20H392",
+  "workflow_commit": "704ac8dfd2aed2443f2b96c599008525d61c95eb",
+  "workflow_run": "https://github.com/ipsw-diff/ios-16/actions/runs/31831719217"
+}
